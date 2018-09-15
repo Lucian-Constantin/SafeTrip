@@ -2343,14 +2343,8 @@ namespace SafeTrip
 			// aapt resource value: 0x7f080032
 			public const int ALT = 2131230770;
 			
-			// aapt resource value: 0x7f080093
-			public const int About = 2131230867;
-			
 			// aapt resource value: 0x7f080033
 			public const int CTRL = 2131230771;
-			
-			// aapt resource value: 0x7f080092
-			public const int Companies = 2131230866;
 			
 			// aapt resource value: 0x7f080034
 			public const int FUNCTION = 2131230772;
@@ -2358,26 +2352,17 @@ namespace SafeTrip
 			// aapt resource value: 0x7f080035
 			public const int META = 2131230773;
 			
-			// aapt resource value: 0x7f08008f
-			public const int MenuButtons = 2131230863;
+			// aapt resource value: 0x7f08009d
+			public const int MenuButtons = 2131230877;
 			
-			// aapt resource value: 0x7f08008c
-			public const int PickCountry = 2131230860;
+			// aapt resource value: 0x7f08009a
+			public const int PickCountry = 2131230874;
 			
 			// aapt resource value: 0x7f080036
 			public const int SHIFT = 2131230774;
 			
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
-			
-			// aapt resource value: 0x7f080094
-			public const int Settings = 2131230868;
-			
-			// aapt resource value: 0x7f080090
-			public const int StartTrip = 2131230864;
-			
-			// aapt resource value: 0x7f080091
-			public const int ViewHistory = 2131230865;
 			
 			// aapt resource value: 0x7f0800a6
 			public const int action0 = 2131230886;
@@ -2466,6 +2451,21 @@ namespace SafeTrip
 			// aapt resource value: 0x7f08003d
 			public const int bottom = 2131230781;
 			
+			// aapt resource value: 0x7f0800a1
+			public const int btnAbout = 2131230881;
+			
+			// aapt resource value: 0x7f0800a0
+			public const int btnCompanies = 2131230880;
+			
+			// aapt resource value: 0x7f0800a2
+			public const int btnSettings = 2131230882;
+			
+			// aapt resource value: 0x7f08009e
+			public const int btnStartTrip = 2131230878;
+			
+			// aapt resource value: 0x7f08009f
+			public const int btnViewHistory = 2131230879;
+			
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
 			
@@ -2496,14 +2496,14 @@ namespace SafeTrip
 			// aapt resource value: 0x7f080039
 			public const int collapseActionView = 2131230777;
 			
-			// aapt resource value: 0x7f080097
-			public const int container = 2131230871;
+			// aapt resource value: 0x7f08008d
+			public const int container = 2131230861;
 			
 			// aapt resource value: 0x7f080066
 			public const int contentPanel = 2131230822;
 			
-			// aapt resource value: 0x7f080098
-			public const int coordinator = 2131230872;
+			// aapt resource value: 0x7f08008e
+			public const int coordinator = 2131230862;
 			
 			// aapt resource value: 0x7f08006d
 			public const int custom = 2131230829;
@@ -2517,26 +2517,26 @@ namespace SafeTrip
 			// aapt resource value: 0x7f080060
 			public const int default_activity_button = 2131230816;
 			
-			// aapt resource value: 0x7f08009a
-			public const int design_bottom_sheet = 2131230874;
+			// aapt resource value: 0x7f080090
+			public const int design_bottom_sheet = 2131230864;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int design_menu_item_action_area = 2131230881;
+			// aapt resource value: 0x7f080097
+			public const int design_menu_item_action_area = 2131230871;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int design_menu_item_action_area_stub = 2131230880;
+			// aapt resource value: 0x7f080096
+			public const int design_menu_item_action_area_stub = 2131230870;
 			
-			// aapt resource value: 0x7f08009f
-			public const int design_menu_item_text = 2131230879;
+			// aapt resource value: 0x7f080095
+			public const int design_menu_item_text = 2131230869;
 			
-			// aapt resource value: 0x7f08009e
-			public const int design_navigation_view = 2131230878;
+			// aapt resource value: 0x7f080094
+			public const int design_navigation_view = 2131230868;
 			
 			// aapt resource value: 0x7f080020
 			public const int disableHome = 2131230752;
 			
-			// aapt resource value: 0x7f08008d
-			public const int editText1 = 2131230861;
+			// aapt resource value: 0x7f08009b
+			public const int editText1 = 2131230875;
 			
 			// aapt resource value: 0x7f08007e
 			public const int edit_query = 2131230846;
@@ -2607,8 +2607,8 @@ namespace SafeTrip
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f080096
-			public const int largeLabel = 2131230870;
+			// aapt resource value: 0x7f08008c
+			public const int largeLabel = 2131230860;
 			
 			// aapt resource value: 0x7f080049
 			public const int left = 2131230793;
@@ -2643,8 +2643,8 @@ namespace SafeTrip
 			// aapt resource value: 0x7f080028
 			public const int multiply = 2131230760;
 			
-			// aapt resource value: 0x7f08009d
-			public const int navigation_header_container = 2131230877;
+			// aapt resource value: 0x7f080093
+			public const int navigation_header_container = 2131230867;
 			
 			// aapt resource value: 0x7f08003b
 			public const int never = 2131230779;
@@ -2685,8 +2685,8 @@ namespace SafeTrip
 			// aapt resource value: 0x7f080075
 			public const int radio = 2131230837;
 			
-			// aapt resource value: 0x7f08008b
-			public const int relativeLayout1 = 2131230859;
+			// aapt resource value: 0x7f080099
+			public const int relativeLayout1 = 2131230873;
 			
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
@@ -2754,8 +2754,8 @@ namespace SafeTrip
 			// aapt resource value: 0x7f080089
 			public const int search_voice_btn = 2131230857;
 			
-			// aapt resource value: 0x7f08008e
-			public const int selectCountry = 2131230862;
+			// aapt resource value: 0x7f08009c
+			public const int selectCountry = 2131230876;
 			
 			// aapt resource value: 0x7f08008a
 			public const int select_dialog_listview = 2131230858;
@@ -2772,14 +2772,14 @@ namespace SafeTrip
 			// aapt resource value: 0x7f080025
 			public const int showTitle = 2131230757;
 			
-			// aapt resource value: 0x7f080095
-			public const int smallLabel = 2131230869;
+			// aapt resource value: 0x7f08008b
+			public const int smallLabel = 2131230859;
 			
-			// aapt resource value: 0x7f08009c
-			public const int snackbar_action = 2131230876;
+			// aapt resource value: 0x7f080092
+			public const int snackbar_action = 2131230866;
 			
-			// aapt resource value: 0x7f08009b
-			public const int snackbar_text = 2131230875;
+			// aapt resource value: 0x7f080091
+			public const int snackbar_text = 2131230865;
 			
 			// aapt resource value: 0x7f080043
 			public const int snap = 2131230787;
@@ -2829,8 +2829,8 @@ namespace SafeTrip
 			// aapt resource value: 0x7f080069
 			public const int textSpacerNoTitle = 2131230825;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int text_input_password_toggle = 2131230882;
+			// aapt resource value: 0x7f080098
+			public const int text_input_password_toggle = 2131230872;
 			
 			// aapt resource value: 0x7f080014
 			public const int textinput_counter = 2131230740;
@@ -2856,8 +2856,8 @@ namespace SafeTrip
 			// aapt resource value: 0x7f08006e
 			public const int topPanel = 2131230830;
 			
-			// aapt resource value: 0x7f080099
-			public const int touch_outside = 2131230873;
+			// aapt resource value: 0x7f08008f
+			public const int touch_outside = 2131230863;
 			
 			// aapt resource value: 0x7f08000f
 			public const int transition_current_scene = 2131230735;
@@ -3030,49 +3030,49 @@ namespace SafeTrip
 			public const int abc_select_dialog_material = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int activity_main = 2130968602;
+			public const int design_bottom_navigation_item = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int design_bottom_navigation_item = 2130968603;
+			public const int design_bottom_sheet_dialog = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_bottom_sheet_dialog = 2130968604;
+			public const int design_layout_snackbar = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_layout_snackbar = 2130968605;
+			public const int design_layout_snackbar_include = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_layout_snackbar_include = 2130968606;
+			public const int design_layout_tab_icon = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_layout_tab_icon = 2130968607;
+			public const int design_layout_tab_text = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_layout_tab_text = 2130968608;
+			public const int design_menu_item_action_area = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_menu_item_action_area = 2130968609;
+			public const int design_navigation_item = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_navigation_item = 2130968610;
+			public const int design_navigation_item_header = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_navigation_item_header = 2130968611;
+			public const int design_navigation_item_separator = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_navigation_item_separator = 2130968612;
+			public const int design_navigation_item_subheader = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_navigation_item_subheader = 2130968613;
+			public const int design_navigation_menu = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_navigation_menu = 2130968614;
+			public const int design_navigation_menu_item = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_navigation_menu_item = 2130968615;
+			public const int design_text_input_password_icon = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int design_text_input_password_icon = 2130968616;
+			public const int Menu = 2130968616;
 			
 			// aapt resource value: 0x7f040029
 			public const int notification_action = 2130968617;
@@ -3134,6 +3134,9 @@ namespace SafeTrip
 			// aapt resource value: 0x7f04003c
 			public const int tooltip = 2130968636;
 			
+			// aapt resource value: 0x7f04003d
+			public const int Trip = 2130968637;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -3169,23 +3172,26 @@ namespace SafeTrip
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f09002c
-			public const int AboutMenu = 2131296300;
-			
-			// aapt resource value: 0x7f09002b
-			public const int CompaniesMenu = 2131296299;
-			
-			// aapt resource value: 0x7f09002a
-			public const int HistoryMenu = 2131296298;
-			
-			// aapt resource value: 0x7f09002e
-			public const int PickCountry = 2131296302;
-			
 			// aapt resource value: 0x7f09002d
-			public const int SettingsMenu = 2131296301;
+			public const int AboutMenu = 2131296301;
+			
+			// aapt resource value: 0x7f09002c
+			public const int CompaniesMenu = 2131296300;
 			
 			// aapt resource value: 0x7f090029
-			public const int StartTripMenu = 2131296297;
+			public const int Error = 2131296297;
+			
+			// aapt resource value: 0x7f09002b
+			public const int HistoryMenu = 2131296299;
+			
+			// aapt resource value: 0x7f09002f
+			public const int PickCountry = 2131296303;
+			
+			// aapt resource value: 0x7f09002e
+			public const int SettingsMenu = 2131296302;
+			
+			// aapt resource value: 0x7f09002a
+			public const int StartTripMenu = 2131296298;
 			
 			// aapt resource value: 0x7f090000
 			public const int abc_action_bar_home_description = 2131296256;

@@ -39,14 +39,14 @@
             android:text="@string/StartTripMenu"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/StartTrip"
+            android:id="@+id/btnStartTrip"
             android:textAllCaps="false"
             android:imeOptions="normal" />
         <Button
             android:text="@string/HistoryMenu"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/ViewHistory"
+            android:id="@+id/btnViewHistory"
             android:textAllCaps="false"
             android:layout_marginTop="20dp" />
         <Button
@@ -54,21 +54,21 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textAllCaps="false"
-            android:id="@+id/Companies"
+            android:id="@+id/btnCompanies"
             android:layout_marginTop="20dp" />
         <Button
             android:text="@string/AboutMenu"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textAllCaps="false"
-            android:id="@+id/About"
+            android:id="@+id/btnAbout"
             android:layout_marginTop="20dp" />
         <Button
             android:text="@string/SettingsMenu"
             android:layout_width="fill_parent"
             android:textAllCaps="false"
             android:layout_height="wrap_content"
-            android:id="@+id/Settings"
+            android:id="@+id/btnSettings"
             android:layout_marginTop="20dp" />
     </LinearLayout>
 </RelativeLayout>
