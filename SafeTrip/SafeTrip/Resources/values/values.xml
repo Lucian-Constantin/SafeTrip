@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+  <string name="StartTripMenu">Start Trip</string>
+  <string name ="HistoryMenu">Trip History</string>
+  <string name ="CompaniesMenu">Taxi Companies</string>
+  <string name ="AboutMenu">AboutUs</string>
+  <string name ="SettingsMenu">Settings</string>
+  <string name ="PickCountry">Selected Country</string>
+
+  <string-array name="planets_array">
+    <item>Denmark(DK)</item>
+    <item>Bulgaria(BG)</item>
+    <item>Romania(Ro)</item>
+    <item>Spain(SP)</item>
+    <item>Italy(IT)</item>
+  </string-array>
+</resources>

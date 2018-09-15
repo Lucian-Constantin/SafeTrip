@@ -3,5 +3,72 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/relativeLayout1">
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:id="@+id/PickCountry">
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PickCountry" />
+        <Spinner
+            android:id="@+id/selectCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="20px"
+        android:id="@+id/MenuButtons">
+    <!--android:drawableTop="@drawable/snap"-->
+        <Button
+            android:text="@string/StartTripMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/StartTrip"
+            android:textAllCaps="false"
+            android:imeOptions="normal" />
+        <Button
+            android:text="@string/HistoryMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ViewHistory"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp" />
+        <Button
+            android:text="@string/CompaniesMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:id="@+id/Companies"
+            android:layout_marginTop="20dp" />
+        <Button
+            android:text="@string/AboutMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:id="@+id/About"
+            android:layout_marginTop="20dp" />
+        <Button
+            android:text="@string/SettingsMenu"
+            android:layout_width="fill_parent"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:id="@+id/Settings"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
 </RelativeLayout>
