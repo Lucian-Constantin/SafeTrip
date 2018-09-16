@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">SafeTrip</string>
-    <string name="action_settings">Settings</string>
-    <string name="Error">Error</string>
+  <string name="app_name">Safe Trip</string>
+  <string name="action_settings">Settings</string>
+  <string name="Error">Error</string>
+  <string name="Price">Price</string>
+  <string name="GoogleMapsAPIKey">AIzaSyBpwl8HNqSgjmxGpQuW_PVsijAbhg9jGIY</string>
 </resources>

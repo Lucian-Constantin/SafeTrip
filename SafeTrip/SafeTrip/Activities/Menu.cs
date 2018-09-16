@@ -25,7 +25,7 @@ public class Menu : AppCompatActivity
         {
             AlertDialog.Builder dialog = new AlertDialog.Builder(this);
             AlertDialog alert = dialog.Create();
-            alert.SetTitle(GetString(Resource.String.Error);
+            alert.SetTitle(GetString(Resource.String.Error));
             alert.SetMessage(e.Message);
             alert.Show();
         }
@@ -53,7 +53,7 @@ public class Menu : AppCompatActivity
         {
             AlertDialog.Builder dialog = new AlertDialog.Builder(this);
             AlertDialog alert = dialog.Create();
-            alert.SetTitle(GetString(Resource.String.Error);
+            alert.SetTitle(GetString(Resource.String.Error));
             alert.SetMessage(e.Message);
             alert.Show();
         }
