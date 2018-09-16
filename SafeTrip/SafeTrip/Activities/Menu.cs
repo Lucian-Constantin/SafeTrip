@@ -61,36 +61,91 @@ public class Menu : AppCompatActivity
 
     private void BtnSettings_Click(object sender, EventArgs e)
     {
-        var intent = new Intent(this, typeof(Settings));
-        StartActivity(intent);
-        Finish();
+        try
+        {
+            var intent = new Intent(this, typeof(Settings));
+            StartActivity(intent);
+            Finish();
+        }
+        catch (Exception ex)
+        {
+            AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            AlertDialog alert = dialog.Create();
+            alert.SetTitle(GetString(Resource.String.Error));
+            alert.SetMessage(ex.Message);
+            alert.Show();
+        }
     }
 
     private void BtnAbout_Click(object sender, EventArgs e)
     {
-        //var intent = new Intent(this, typeof(About));
-        //StartActivity(intent);
-        //Finish();
+        try
+        {
+            //var intent = new Intent(this, typeof(About));
+            //StartActivity(intent);
+            //Finish();
+        }
+        catch (Exception ex)
+        {
+            AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            AlertDialog alert = dialog.Create();
+            alert.SetTitle(GetString(Resource.String.Error));
+            alert.SetMessage(ex.Message);
+            alert.Show();
+        }
     }
 
     private void BtnCompanies_Click(object sender, EventArgs e)
     {
-        var intent = new Intent(this, typeof(Companies));
-        StartActivity(intent);
-        Finish();
+        try
+        {
+            var intent = new Intent(this, typeof(Companies));
+            StartActivity(intent);
+            Finish();
+        }
+        catch (Exception ex)
+        {
+            AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            AlertDialog alert = dialog.Create();
+            alert.SetTitle(GetString(Resource.String.Error));
+            alert.SetMessage(ex.Message);
+            alert.Show();
+        }
     }
 
     private void BtnHistory_Click(object sender, EventArgs e)
     {
-        var intent = new Intent(this, typeof(History));
-        StartActivity(intent);
-        Finish();
+        try
+        {
+            var intent = new Intent(this, typeof(History));
+            StartActivity(intent);
+            Finish();
+        }
+        catch (Exception ex)
+        {
+            AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            AlertDialog alert = dialog.Create();
+            alert.SetTitle(GetString(Resource.String.Error));
+            alert.SetMessage(ex.Message);
+            alert.Show();
+        }
     }
 
     private void BtnStartTrip_Click(object sender, EventArgs e)
     {
-        var intent = new Intent(this, typeof(Trip));
-        StartActivity(intent);
-        Finish();
+        try
+        {
+            var intent = new Intent(this, typeof(Trip));
+            StartActivity(intent);
+            Finish();
+        }
+        catch (Exception ex)
+        {
+            AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            AlertDialog alert = dialog.Create();
+            alert.SetTitle(GetString(Resource.String.Error));
+            alert.SetMessage(ex.Message);
+            alert.Show();
+        }
     }
 }

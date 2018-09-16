@@ -1,25 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
+﻿using Android.App;
 using Android.Gms.Maps;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using SafeTrip;
+using System;
 
 [Activity(Label = "@string/YourTrip")]
 public class Trip : Activity, IOnMapReadyCallback
 {
     protected override void OnCreate(Bundle savedInstanceState)
     {
-        base.OnCreate(savedInstanceState);
-        SetContentView(Resource.Layout.Trip);
-        InitData();
+        try
+        {
+            base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.Trip);
+            InitData();
+        }
+        catch (Exception e)
+        {
+            AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            AlertDialog alert = dialog.Create();
+            alert.SetTitle(GetString(Resource.String.Error));
+            alert.SetMessage(e.Message);
+            alert.Show();
+        }
     }
 
     private void InitData()

@@ -16,9 +16,20 @@ public class Settings : Activity
 {
     protected override void OnCreate(Bundle savedInstanceState)
     {
-        base.OnCreate(savedInstanceState);
-        SetContentView(Resource.Layout.Trip);
-        InitData();
+        try
+        {
+            base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.Trip);
+            InitData();
+        }
+        catch (Exception e)
+        {
+            AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            AlertDialog alert = dialog.Create();
+            alert.SetTitle(GetString(Resource.String.Error));
+            alert.SetMessage(e.Message);
+            alert.Show();
+        }
     }
 
     private void InitData()

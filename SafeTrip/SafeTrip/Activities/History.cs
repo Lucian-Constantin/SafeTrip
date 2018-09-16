@@ -9,14 +9,26 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using SafeTrip;
 
 [Activity(Label = "History")]
 public class History : Activity
 {
     protected override void OnCreate(Bundle savedInstanceState)
     {
-        base.OnCreate(savedInstanceState);
+        try
+        {
+            base.OnCreate(savedInstanceState);
+            //SetContentView(Resource.Layout.History);
+        }
+        catch (Exception e)
+        {
+            AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            AlertDialog alert = dialog.Create();
+            alert.SetTitle(GetString(Resource.String.Error));
+            alert.SetMessage(e.Message);
+            alert.Show();
+        }
 
-        // Create your application here
     }
 }

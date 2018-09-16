@@ -9,14 +9,25 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using SafeTrip;
 
 [Activity(Label = "Companies")]
 public class Companies : Activity
 {
     protected override void OnCreate(Bundle savedInstanceState)
     {
-        base.OnCreate(savedInstanceState);
-
-        // Create your application here
+        try
+        {
+            base.OnCreate(savedInstanceState);
+            //SetContentView(Resource.Layout.Settings);
+        }
+        catch (Exception e)
+        {
+            AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+            AlertDialog alert = dialog.Create();
+            alert.SetTitle(GetString(Resource.String.Error));
+            alert.SetMessage(e.Message);
+            alert.Show();
+        }
     }
 }

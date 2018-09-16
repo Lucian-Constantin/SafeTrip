@@ -3400,9 +3400,6 @@ namespace SafeTrip
 			// aapt resource value: 0x7f08003a
 			public const int Error = 2131230778;
 			
-			// aapt resource value: 0x7f08003c
-			public const int GoogleMapsAPIKey = 2131230780;
-			
 			// aapt resource value: 0x7f08003e
 			public const int HistoryMenu = 2131230782;
 			
@@ -3417,6 +3414,9 @@ namespace SafeTrip
 			
 			// aapt resource value: 0x7f08003d
 			public const int StartTripMenu = 2131230781;
+			
+			// aapt resource value: 0x7f08003c
+			public const int YourTrip = 2131230780;
 			
 			// aapt resource value: 0x7f080011
 			public const int abc_action_bar_home_description = 2131230737;
